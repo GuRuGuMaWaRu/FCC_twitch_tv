@@ -107,8 +107,11 @@ class Main extends React.Component {
     // 2 - use Twitch API to download stream data
     this.customForEach(channels, channel => {
       let streamStatus = '';
+      function makeUrl(type, name) {
+        return 'https://wind-bow.gomix.me/twitch-api/' + type + '/' + name + '?callback=?';
+      };
       // 2.1 - get stream status
-      $.getJSON('https://api.twitch.tv/kraken/streams/' + channel + '?callback=?', data => {
+      $.getJSON(makeUrl('streams', channel), data => {
         if (data.stream === null) {
           streamStatus = 'offline';
         } else if (data.error) {
@@ -118,7 +121,7 @@ class Main extends React.Component {
         }
       }).done(() => {
         // 2.2 - get stream data
-        $.getJSON('https://api.twitch.tv/kraken/channels/' + channel + '?callback=?', data => {
+        $.getJSON(makeUrl('channels', channel), data => {
           // 2.3 - add previously received status data and known stream name to the data object
           data.streamStatus = streamStatus;
           data.streamName = channel;
