@@ -4,7 +4,7 @@
 
 - [ ] I can see whether freeCodeCamp is currently streaming on Twitch.tv.
 - [ ] I can click the status output and be sent directly to the freeCodeCamp's Twitch.tv channel.
-- [ ] if a Twitch user is currently streaming, I can see additional details about what they are streaming.
+- [ ] If a Twitch user is currently streaming, I can see additional details about what they are streaming.
 
 ## Thoughts
 
