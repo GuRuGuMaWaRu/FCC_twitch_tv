@@ -13,7 +13,7 @@ The task looked simple enough, so the main problem was to come up with a good de
 ## Links
 
 - [ ] this project at codepen: [https://codepen.io/GuRuGu/full/EyXgOy/](https://codepen.io/GuRuGu/full/EyXgOy/)
-- [ ] this project at gh-pages: [https://gurugumawaru.github.io/FCC_twitch_tv/](https://gurugumawaru.github.io/FCC_twitch_tv/)
+- [ ] this project at gh-pages: [https://gurugu-fcc-projects.github.io/FCC__twitch_tv/](https://gurugu-fcc-projects.github.io/FCC__twitch_tv/)
 - [ ] freecodecamp challenge: [https://learn.freecodecamp.org/coding-interview-prep/take-home-projects/use-the-twitch-json-api](https://learn.freecodecamp.org/coding-interview-prep/take-home-projects/use-the-twitch-json-api)
 
 ## Video Walkthrough
